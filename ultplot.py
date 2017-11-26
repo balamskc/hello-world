@@ -20,9 +20,7 @@ for filename in glob.glob(path):
     base=os.path.basename(filename)
     file_names.append(base)
     #print(base)
-
     #print(os.path.splitext(base))
-
     y=os.path.splitext(base)[0]
     print(y)
     x=pd.read_csv((base))
