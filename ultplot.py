@@ -1,13 +1,4 @@
-#!/usr/bin/env python2
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Oct 25 17:19:34 2017
 
-@author: bgmad1
-"""
-
-#!/usr/bin/env python2
-# -*- coding: utf-8 -*-
 """
 Created on Tue Oct 24 13:54:55 2017
 
@@ -63,11 +54,6 @@ for filename in glob.glob(path):
 
 #print([file for file in files])
 #print([file_name for file_name in file_names])
-
-
-
-
-
 plt.axis([350,1000,0,2])
 plt.axis('auto')
 plt.xlim([300,1000])
